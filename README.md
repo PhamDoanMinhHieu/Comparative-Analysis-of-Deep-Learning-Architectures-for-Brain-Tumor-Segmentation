@@ -7,12 +7,13 @@ The models included:
 + DeepResUNet: is an extended ResUNet design emphasizing deeper feature extraction  
 + Recurrent UNet (SRU and DRU): is an improved UNet variant engineered to boost segmentation efficiency under resource constraints  
 + DuckNet: is a novel architecture optimized for segmentation through its distinctive dual-path design  
+
 All models were trained on the same dataset and assessed using the Dice similarity coefficient and Intersection over Union  
 As detailed in the paper "Comparative Analysis of Deep Learning Architectures for Brain Tumor Segmentation" by:  
 + Quang-Huyen Tran  
 + Hieu M. D. Pham  
 + Duy-Phuc Ho  
-+ Hanh T. M. Tran 
++ Hanh T. M. Tran  
 From The University of Da Nang - University of Science and Technology, Vietnam. 
 # Segmentation Dataset  
 This is a standardized, publicly accessible brain tumor MRI dataset  
@@ -30,6 +31,7 @@ This is a standardized, publicly accessible brain tumor MRI dataset
 | SRU           | **12.7M**  | 0.9260     | 0.8630     | 0.7825     | 0.6561     |
 | DuckNet       | 38M        | 0.9753     | 0.9520     | **0.8575** | **0.7561** |
 # Trained models  
-Download pre-trained models: [Link](https://drive.google.com/drive/folders/1r9MbhVnNtbNW4zIUggwqQqw1P0Ob-fdV?usp=sharing)  
+Download pre-trained models: [Link](https://drive.google.com/drive/folders/1r9MbhVnNtbNW4zIUggwqQqw1P0Ob-fdV?usp=sharing) 
+You can dowload pretrain model and fine turning in your task   
 
 
