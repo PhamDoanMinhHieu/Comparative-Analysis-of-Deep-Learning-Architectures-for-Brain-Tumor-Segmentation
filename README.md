@@ -14,6 +14,7 @@ As detailed in the paper "Comparative Analysis of Deep Learning Architectures fo
 + Hieu M. D. Pham  
 + Duy-Phuc Ho  
 + Hanh T. M. Tran  
+
 From The University of Da Nang - University of Science and Technology, Vietnam. 
 # Segmentation Dataset  
 This is a standardized, publicly accessible brain tumor MRI dataset  
@@ -30,8 +31,13 @@ This is a standardized, publicly accessible brain tumor MRI dataset
 | DRU           | 13.9M      | 0.9065     | 0.8301     | 0.7954     | 0.6699     |
 | SRU           | **12.7M**  | 0.9260     | 0.8630     | 0.7825     | 0.6561     |
 | DuckNet       | 38M        | 0.9753     | 0.9520     | **0.8575** | **0.7561** |
+
+Table presents example predictions of brain tumor segmentation across axial, sagittal, and coronalMRI slices using sixmodels compared against ground truth.    
+DUCK-Net consistently achieved themost accurate and robust segmentations across different orientations, demonstrating superior generalization.  
+However, most models showed difficulty in handling small tumors and poorly defined boundaries.  
+
 # Trained models  
-Download pre-trained models: [Link](https://drive.google.com/drive/folders/1r9MbhVnNtbNW4zIUggwqQqw1P0Ob-fdV?usp=sharing) 
-You can dowload pretrain model and fine turning in your task   
+Download pre-trained models: [Link](https://drive.google.com/drive/folders/1r9MbhVnNtbNW4zIUggwqQqw1P0Ob-fdV?usp=sharing)  
+You can dowload pretrain model and fine turning in your task.  
 
 
